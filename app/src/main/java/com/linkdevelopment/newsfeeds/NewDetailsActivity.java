@@ -47,6 +47,8 @@ public class NewDetailsActivity extends AppCompatActivity {
 
         if (getIntent() != null && getIntent().hasExtra("new"))
             mNewModel = (NewModel) getIntent().getSerializableExtra("new");
+        else
+            finish();
 
         mTitle.setText(mNewModel.getTitle());
         mAuthor.setText(String.format("By %s", mNewModel.getAuthor()));
