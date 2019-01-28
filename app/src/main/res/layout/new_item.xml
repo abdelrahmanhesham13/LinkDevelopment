@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="5dp"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr"
+    android:layout_marginBottom="10dp"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/image"
+        android:adjustViewBounds="true"
+        android:layout_height="170dp"
+        android:contentDescription="@string/name"
+        android:scaleType="fitXY"
+        android:src="@drawable/im_placeholder"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/title"
+        android:lines="2"
+        android:gravity="left"
+        android:ellipsize="end"
+        android:textColor="#424242"
+        android:textSize="15sp"
+        tools:text="Amazing Images: The Best Science Photos of the Week"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:id="@+id/author"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:textColor="#9e9e9e"
+        android:textSize="13sp"
+        tools:text="By Livescience.com"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:id="@+id/date"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="5dp"
+        android:textColor="#9e9e9e"
+        android:textSize="13sp"
+        android:gravity="right"
+        tools:text="April 3, 2017"
+        />
+
+</LinearLayout>

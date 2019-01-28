@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Link Development</string>
+    <string name="explore">Explore</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="wish_list">Wish List</string>
+    <string name="e_magazine">E-Magazine</string>
+    <string name="name">Tony Roshdy</string>
+    <string name="welcome">Welcome</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Closed</string>
+    <string name="link_development">LINK DEVELOPMENT</string>
+    <string name="open_website">Open Website</string>
+    <string name="search">Search</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="error">Error Please Try Again</string>
+</resources>
